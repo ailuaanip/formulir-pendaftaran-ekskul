@@ -4,41 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pendaftaran Klub Coding</title>
+    <!-- Menghubungkan file HTML dengan file CSS eksternal -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-   
+    <!-- Kotak Kontainer Form -->
     <div class="form-card">
 
-     
+        <!-- Header Form -->
         <div class="form-header">
             <span class="badge"> SMK DARUSSALAM MAKASSAR </span>
-            <h2>Join coding club</h2>
+            <h2>Join Ekskul Musik</h2>
             <p>Daftarkan dirimu dan mulai mulai mengasah kemampuanmu!</p>
         </div>
 
-       
+        <!-- Formulir Pendaftaran -->
         <form>
-            
+            <!-- Input Teks: Nama -->
             <div class="input-group">
                 <label for="nama">Nama Lengkap</label>
-                <input type="text" id="nama" placeholder="contoh: arif" required>
+                <input type="text" id="nama" placeholder="contoh: saprina safiyyah" required>
             </div>
 
-            
+            <!-- Input Teks: Kelas -->
             <div class="input-group">
                 <label for="kelas">Kelas</label>
                 <input type="text" id="kelas" placeholder="contoh: XI RPL" required>
             </div>
 
-            
+            <!-- Textarea: Alasan -->
             <div class="input-group">
                 <label for="alasan">Kenapa ingin bergabung?</label>
                 <textarea id="alasan" rows="3" placeholder="Tulis alasan singkatmu di sini..." required></textarea>
             </div>
 
-           
+            <!-- Tombol Aksi (Submit) -->
             <button type="submit" class="btn-submit">Kirim Pendaftaran</button>
         </form>
 
